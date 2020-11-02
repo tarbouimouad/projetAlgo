@@ -20,7 +20,7 @@ Des tests sont également disponnibles pour visualiser le fonctionnement de ces 
 
 -Etape3: lancer la commande ```make all```
 
--Etape4: lancer la commande ```./testk``` avec k= 1,2,3 ou 4 selon le teste que vous souhaitez lancer
+-Etape4: lancer la commande ```./testk``` avec k= 1,2,3 ou 4 selon le test que vous souhaitez lancer.
 
 
 
