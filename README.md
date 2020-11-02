@@ -9,7 +9,7 @@ Des tests sont également disponnibles pour visualiser le fonctionnement de ces 
 
 ```TEST2: Teste les routines d'ajout,de suppression, de test d'appartenance ... ```
 
-```TEST3: Teste la focntion d'égalité de deux dictionnaires... ```
+```TEST3: Teste la fonction d'égalité de deux dictionnaires... ```
 
 ```TEST3: Concerne les itérateur```
 
