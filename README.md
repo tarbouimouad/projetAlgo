@@ -11,7 +11,7 @@ Des tests sont également disponnibles pour visualiser le fonctionnement de ces 
 
 ```TEST3: Teste la fonction d'égalité de deux dictionnaires... ```
 
-```TEST3: Concerne les itérateur```
+```TEST4: Concerne les itérateur```
 
 # Guide d'utilisation
 -Etape 1: Cloner ce répertoire
