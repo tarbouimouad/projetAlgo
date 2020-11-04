@@ -3,7 +3,7 @@
 
 int main(int argc, char const *argv[]) {
   printf("/*******************Affichage prefixé d'un dictionnaire********************/\n");
-  
+
   puts("");
   printf("On crée un dictionnaire d\n" );
   puts("");
@@ -20,7 +20,7 @@ int main(int argc, char const *argv[]) {
   add_iter(d,"oursonne",8);
   printf("On ajoute les mots bordeau, bord, bateau, brule, brille, ours, ourse, ourson et oursonne\n" );
   puts("");
-  printf("Ce dictionnaire contient %d noeuds ,a une hauteur de %d et possède %d mot(s)\n",nb_nodes(d),height(d),nb_words(d));
+  printf("Ce dictionnaire contient %d noeuds ,a une hauteur de %d et possède %d mots\n",nb_nodes(d),height(d),nb_words(d));
   puts("");
   printf("On affiche le dictionnaire\n");
   print_prefix(d);

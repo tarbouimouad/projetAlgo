@@ -122,7 +122,7 @@ void print_tree(tree t , int decalage){
 
     if(t->end_of_word == 1) printf("%s[%c]%c*\n",nb_plus(decalage) ,t->first,t->first);
     else  printf("%s[%c]%c\n",nb_plus(decalage) ,t->first,t->first);
-    if(plus != "")
+    if(strcmp(plus,"") != 0)
           free(plus);
     for (size_t i = 0; i < NB_KEYS; i++) {
       print_tree(t->children[i] , decalage+1);
@@ -401,7 +401,7 @@ void sprint_tree(tree t , int decalage ,char ** s){
       sprintf(s[indice],"%s%c*\0",plus ,t->first);
     else
       sprintf(s[indice],"%s%c\0",plus ,t->first);
-    if(plus != "") // car s'il n'ya pas de + à afficher la fonction nb_plus return "" .
+    if(strcmp(plus,"") != 0) // car s'il n'ya pas de + à afficher la fonction nb_plus return "" .
       free(plus);
     for (size_t i = 0; i < 26; i++) {
       if(t->children[i] != NULL)
